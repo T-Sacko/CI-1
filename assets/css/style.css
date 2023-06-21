@@ -9,11 +9,11 @@
 
 body {
   position: relative;
-  min-height: 100vh;
+  min-height: 95vh;
 }
 
 .active {
-  border-bottom: 1px solid #777777
+  border-bottom: 2px solid #bb86fc
 }
 
 /* --------------------------------header */
@@ -23,14 +23,14 @@ body {
 
 a.nav-link {
   padding: 0;
-  color: #bb86fc;
+  
 }
 
 #logo {
   float: left;
   font-size: 200%;
   font-weight: bold;
-  color: #bb86fc;
+  
 }
 
 #logo,
@@ -39,7 +39,7 @@ a.nav-link {
 }
 
 li {
-  color: #bb86fc;
+  
 }
 
 /* ---------------------------------------------- header/menu */
@@ -64,39 +64,38 @@ li {
   color: #333333;
 }
 
-#menu a:hover {
-  border-bottom: 1px solid #777777
-}
+
 
 
 
 /* -----------------------------------------main section */
 
 
+.homepage-main-section{
+  margin-top: 25px;
+}
+
 @media (max-width: 767px) {
   section {
     min-height: 350px;
+    padding-bottom: 20px;
   }
 
-  .content {
+  .content  {
     max-height: 250px;
     margin-bottom: 30px;
     text-align: center;
+    padding-bottom: 0px;
+  }
 
     .content h3 {
       text-align: left;
     }
-  }
+  
 
-  .main {
-    margin-bottom: 150px;
-  }
+ 
 
-  @media (max-width: 765px) {
-    .main {
-      margin-bottom: 160px;
-    }
-  }
+ 
 }
 
 
@@ -104,9 +103,6 @@ li {
 
 /* --------------------------------------footer */
 
-footer {
-  margin-top: 50%;
-}
 
 /* @media (min-width:767px) {
   footer {
@@ -116,8 +112,22 @@ footer {
 
 
 
-.my-links {
+footer {
   text-align: center;
+  margin-top: 25px; 
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+@media (max-width: 767px) {
+  footer {
+    position: relative;
+    margin-top: 25%;
+  }
+}
+
+.my-links{
+  padding: 0;
 }
 
 .my-links li a {
@@ -130,5 +140,39 @@ footer {
 
 .my-links i {
   font-size: 160%;
-  padding-right: 15px !important;
+  padding:0 15px 0 15px !important;
+}
+
+/* -----------------------------------------contact */
+
+.form{
+  margin: 0 auto;
+  max-width: 70%;
+  padding-top: 10px;
+}
+
+.contact-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  margin-top: 25px!important;
+  margin-bottom: 20px!important;
+  color: #bb86fc!important;
+  background-color: #333333!important;
+}
+
+
+
+@media (min-width:992px) {
+  .form{
+    margin: 0 auto;
+    max-width: 50%;
+    padding-top: 30px;
+    min-height: 240px;
+    border: 2px #bb86fc;
+  }
 }
