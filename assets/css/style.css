@@ -5,6 +5,12 @@
 
 }
 
+.buttons{
+  display: flex;
+  justify-items: space-around;
+  
+}
+
 
 
 body {
@@ -122,7 +128,7 @@ footer {
 @media (max-width: 767px) {
   footer {
     position: relative;
-    margin-top: 25%;
+    margin-top: 25px;
   }
 }
 
