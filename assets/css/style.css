@@ -1,92 +1,99 @@
-*{
-   
-    background-color: #101111!important;
-    color: #bb86fc!important;
+* {
 
-  }
+  background-color: #101111 !important;
+  color: #bb86fc !important;
 
-  
-
-  body{
-    position: relative;
-    min-height: 100vh;
-  }
-
-  .active{
-    border-bottom: 1px solid #777777
 }
 
-  /* --------------------------------header */
 
- 
-  
 
-  a.nav-link{
-    padding: 0;
-    color: #bb86fc;
-  }
- 
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+.active {
+  border-bottom: 1px solid #777777
+}
+
+/* --------------------------------header */
+
+
+
+
+a.nav-link {
+  padding: 0;
+  color: #bb86fc;
+}
+
 #logo {
-    float: left;
-    font-size: 200%;
-    font-weight: bold;
-    color: #bb86fc;
-}  
+  float: left;
+  font-size: 200%;
+  font-weight: bold;
+  color: #bb86fc;
+}
 
-#logo, #menu{
-    line-height: 75px;
-  }
-  li {
-    color: #bb86fc;
-  }
+#logo,
+#menu {
+  line-height: 75px;
+}
+
+li {
+  color: #bb86fc;
+}
 
 /* ---------------------------------------------- header/menu */
 
- #menu{
-    list-style-type: none;
-    
- } 
-  
-  #menu li{
-    float: right;
-    margin-right:15px!important
+#menu {
+  list-style-type: none;
+
+}
+
+#menu li {
+  float: right;
+  margin-right: 15px !important
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #777777
+}
+
+#menu a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #333333;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #777777
+}
+
+
+
+/* -----------------------------------------main section */
+
+
+@media (max-width: 767px) {
+  section {
+    min-height: 350px;
   }
 
-  #menu a:hover{
-    border-bottom: 1px solid #777777
-  }
-  
-  #menu a {
-    text-decoration: none;
-    font-family: sans-serif;
-    color: #333333;
-  }
-  
-  #menu a:hover{
-    border-bottom: 1px solid #777777
-  }
-  
- 
-  
-  /* -----------------------------------------main section */
-  @media (max-width:767px){
-   section {
-    min-height: 350px;}
-  }
-  
-  @media (max-width: 767px) {
-    .content {
+  .content {
     max-height: 250px;
+    margin-bottom: 30px;
     text-align: center;
-    margin-bottom: 20px;
+
+    .content h3 {
+      text-align: left;
+    }
   }
 
-  .main{
+  .main {
     margin-bottom: 150px;
   }
 
   @media (max-width: 765px) {
-    .main{
+    .main {
       margin-bottom: 160px;
     }
   }
@@ -94,38 +101,34 @@
 
 
 
- 
+
 /* --------------------------------------footer */
 
-footer{
-  position: relative;
-  bottom:0;
+footer {
+  margin-top: 50%;
 }
 
-@media (min-width:767px){
-  footer{
+/* @media (min-width:767px) {
+  footer {
     margin-top: 10%;
   }
+} */
+
+
+
+.my-links {
+  text-align: center;
 }
 
+.my-links li a {
+  text-decoration: none;
+}
 
+.my-links li {
+  display: inline;
+}
 
-  .my-links{
-    text-align: center;    
-  }
-
-  .my-links li a {
-    text-decoration: none;
-  }
-  
-   .my-links li{
-    display: inline;
-  } 
-
-  .my-links i{
-    font-size: 160%;
-    padding-right: 15px!important;
-  } 
-
-
-  
+.my-links i {
+  font-size: 160%;
+  padding-right: 15px !important;
+}
