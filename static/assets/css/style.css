@@ -1,0 +1,191 @@
+* {
+
+  background-color: #101111 !important;
+  color: #fff !important;
+
+}
+
+.buttons{
+ display: flex;
+ justify-content: center;
+ margin-top: 15px ;
+  
+}
+
+
+
+body {
+  position: relative;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.active {
+  border-bottom: 2px solid #bb86fc
+}
+
+/* --------------------------------header */
+
+
+
+
+a.nav-link {
+  padding: 0;
+  
+}
+
+#logo {
+  float: left;
+  font-size: 200%;
+  font-weight: bold;
+  
+}
+
+#logo,
+#menu {
+  line-height: 75px;
+}
+
+
+/* ---------------------------------------------- header/menu */
+
+#menu {
+  list-style-type: none;
+
+}
+
+#menu li {
+  float: right;
+  margin-right: 15px !important
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #777777
+}
+
+#menu a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #333333;
+}
+
+
+
+
+
+/* -----------------------------------------main section */
+
+
+.homepage-main-section{
+  margin-top: 25px;
+}
+
+@media (max-width: 767px) {
+  section {
+    min-height: 350px;
+    padding-bottom: 20px;
+  }
+
+  .content  {
+    max-height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+
+  .content h3 {
+      text-align: left;
+    }
+  
+
+ 
+
+ 
+}
+
+
+
+
+/* --------------------------------------footer */
+
+footer {
+  text-align: center;
+  margin-top: 35px!important; 
+  width: 100%;
+  margin-top: auto!important;
+}
+
+.my-links{
+  padding: 0;
+}
+
+.my-links li a {
+  text-decoration: none;
+}
+
+.my-links li {
+  display: inline;
+  color: #bb86fc!important;
+}
+
+.my-links i {
+  font-size: 160%;
+  padding:0 15px 0 15px !important;
+}
+
+/* -----------------------------------------contact */
+
+.form{
+  margin: 0 auto;
+  max-width: 70%;
+  padding-top: 10px;
+}
+
+.contact-heading {
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  margin-top: 25px!important;
+  margin-bottom: 20px;
+  
+}
+
+
+
+@media (min-width:992px) {
+  .form{
+    margin: 0 auto;
+    max-width: 50%;
+    padding-top: 30px;
+    min-height: 240px;
+    border: 2px #bb86fc;
+  }
+
+  .hire-me{
+    margin-bottom: 25px;
+  }
+
+}
+
+/* ------------------------------projects */
+
+.projects{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.project{
+  min-height: 300px;
+  border:2px solid #333333 ;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px!important;
+}
+
+.project-link{
+  margin:auto auto 15px auto;
+}
