@@ -9,6 +9,10 @@
  display: flex;
  justify-content: center;
  margin-top: 15px ;
+ ;
+
+
+
   
 }
 
@@ -166,7 +170,7 @@ button[type="submit"] {
   }
 
   .hire-me{
-    margin-bottom: 25px;
+    margin-bottom: 25px!important;
   }
 
 }
