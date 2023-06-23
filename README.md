@@ -120,6 +120,10 @@ No issues when testing the site's responsiveness on firefox and chrome using the
 
 The live link can be found [here](https://t-sacko.github.io/CI-1/)
 
+## Known issues
+
+ - Couldn't use lighthouse for testing as it wasnt loading for me
+
 
 ## Credits 
 
